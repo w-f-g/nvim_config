@@ -1,5 +1,5 @@
 return {
-  { import = "plugins.html-css" },
+  { import = "plugins.pack_html-css" },
   {
     "williamboman/mason-lspconfig.nvim",
     optional = true,

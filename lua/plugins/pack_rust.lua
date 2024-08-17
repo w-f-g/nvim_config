@@ -1,5 +1,5 @@
 local pack = {
-  { import = "plugins.toml" },
+  { import = "plugins.pack_toml" },
   {
     "nvim-treesitter/nvim-treesitter",
     optional = true,

@@ -1,5 +1,5 @@
 return {
-  { import = "plugins.json" },
+  { import = "plugins.pack_json" },
   {
     "nvim-treesitter/nvim-treesitter",
     optional = true,

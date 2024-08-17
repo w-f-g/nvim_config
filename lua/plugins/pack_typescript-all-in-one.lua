@@ -1,6 +1,6 @@
 return {
   { import = "plugins.typescript" },
-  { import = "plugins.typescript-deno" },
+  { import = "plugins.pack_typescript-deno" },
   {
     "AstroNvim/astrolsp",
     optional = true,

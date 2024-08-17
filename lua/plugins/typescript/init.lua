@@ -73,7 +73,7 @@ end
 local conform_formatter = function(bufnr) return has_prettier(bufnr) and { "prettierd" } or {} end
 
 return {
-  { import = "plugins.json" },
+  { import = "plugins.pack_json" },
   { import = "lsp.nvim-lsp-file-operations" },
   {
     "nvim-treesitter/nvim-treesitter",

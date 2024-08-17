@@ -1,5 +1,5 @@
 return {
-  { import = "plugins.yaml" },
+  { import = "plugins.pack_yaml" },
   {
     "AstroNvim/astrolsp",
     optional = true,
