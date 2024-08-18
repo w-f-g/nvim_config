@@ -1,3 +1,14 @@
+# tips
+
+## telescope.nvim
+
+依赖了一个叫 [ripgrep](https://github.com/BurntSushi/ripgrep) 的工具，需要手动安装
+
+**windows:** `winget install BurntSushi.ripgrep.MSVC`
+
+**linux:** `sudo pacman -S ripgrep` or `sudo apt-get install ripgrep`
+
+
 # 窗口操作
 
 | action             | mappings   |
