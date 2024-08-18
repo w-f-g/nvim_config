@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
@@ -58,6 +58,19 @@ return {
             )
           end,
           desc = "Close buffer from tabline",
+        },
+        ["<Leader>O"] = {
+          function()
+            local command = "!start %"
+            local os_name = vim.loop.os_uname().sysname
+            if os_name == "Linux" then
+              command = "!xdg-open %"
+            elseif os_name == "Darwin" then
+              command = "!open %"
+            end
+            vim.api.nvim_command(command)
+          end,
+          desc = "Open In Default",
         },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
