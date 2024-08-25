@@ -59,7 +59,7 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
-        ["<Leader>O"] = {
+        ["<Leader>ao"] = {
           function()
             local command = "!start %"
             local os_name = vim.loop.os_uname().sysname
@@ -72,16 +72,12 @@ return {
           end,
           desc = "Open In Default",
         },
-        ["<Leader>ao"] = {
-          function() vim.cmd "CompilerOpen" end,
-          desc = "Compiler Open",
-        },
-        ["<Leader>as"] = {
-          function() vim.cmd "CompilerStop" end,
-          desc = "Compiler Stop",
+        ["<Leader>ar"] = {
+          function() vim.cmd "OverseerRun" end,
+          desc = "Overseer Run",
         },
         ["<Leader>at"] = {
-          function() vim.cmd "CompilerToggleResults" end,
+          function() vim.cmd "OverseerToggle" end,
           desc = "Compiler Toggle Results",
         },
 
