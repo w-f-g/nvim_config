@@ -72,6 +72,18 @@ return {
           end,
           desc = "Open In Default",
         },
+        ["<Leader>ao"] = {
+          function() vim.cmd "CompilerOpen" end,
+          desc = "Compiler Open",
+        },
+        ["<Leader>as"] = {
+          function() vim.cmd "CompilerStop" end,
+          desc = "Compiler Stop",
+        },
+        ["<Leader>at"] = {
+          function() vim.cmd "CompilerToggleResults" end,
+          desc = "Compiler Toggle Results",
+        },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus

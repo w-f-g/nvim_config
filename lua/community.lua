@@ -14,6 +14,8 @@ return {
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.code-runner.compiler-nvim" },
+  -- { import = "astrocommunity.code-runner.overseer-nvim" },
 
   -- language
   { import = "astrocommunity.pack.go" },
