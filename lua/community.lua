@@ -10,11 +10,11 @@ return {
   -- { import = "plugins.lua" },
   -- import/override with your plugins folder
   -- { import = 'astrocommunity.pack.' },
-  { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.code-runner.overseer-nvim" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
 
   -- language
   -- { import = "astrocommunity.pack.go" },
