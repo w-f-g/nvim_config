@@ -1,0 +1,38 @@
+{
+  "setup": {
+    "prefix": [
+      "clg"
+    ],
+    "body": [
+      "console.log(${0})"
+    ],
+    "description": "console.log"
+  },
+  "anfn": {
+    "prefix": [
+      "anfn"
+    ],
+    "body": [
+      "() => {${0}}"
+    ],
+    "description": "arrow function"
+  },
+  "imn": {
+    "prefix": [
+      "imn"
+    ],
+    "body": [
+      "import '${0}'"
+    ],
+    "description": "imporNoModuleName"
+  },
+  "imd": {
+    "prefix": [
+      "imd"
+    ],
+    "body": [
+      "import name from '${0}'"
+    ],
+    "description": "importDestructing"
+  }
+}

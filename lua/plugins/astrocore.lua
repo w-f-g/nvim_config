@@ -80,7 +80,10 @@ return {
           function() vim.cmd "OverseerToggle" end,
           desc = "Compiler Toggle Results",
         },
-
+        ["<Leader>i"] = {
+          function() vim.cmd "ToggleAlternate" end,
+          desc = "Toggle Alternate",
+        },
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
