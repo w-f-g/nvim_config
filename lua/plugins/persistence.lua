@@ -9,7 +9,7 @@ return {
     -- stylua: ignore
     keys = {
       -- { prefix .. "s", function() require("persistence").load() end, desc = "Restore Session" },
-      { prefix .. "s", function() require("persistence").select() end,desc = "Select Session" },
+      { prefix .. "f", function() require("persistence").select() end,desc = "Select Session" },
       { prefix .. "l", function() require("persistence").load({ last = true }) end, desc = "Restore Last Session" },
       { prefix .. "d", function() require("persistence").stop() end, desc = "Don't Save Current Session" },
     },
