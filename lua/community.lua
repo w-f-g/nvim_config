@@ -10,6 +10,7 @@ return {
   -- { import = "plugins.lua" },
   -- import/override with your plugins folder
   -- { import = 'astrocommunity.pack.' },
+  { import = "astrocommunity.recipes.neovide" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.code-runner.overseer-nvim" },
