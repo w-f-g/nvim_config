@@ -20,16 +20,15 @@ return {
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
 
   -- language
-  -- { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.vue" },
-  -- { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.sql" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.toml" },
-  -- { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.html-css" },
