@@ -13,7 +13,7 @@
       "anfn"
     ],
     "body": [
-      "() => {${0}}"
+      "(${0}) => {}"
     ],
     "description": "arrow function"
   },
@@ -31,8 +31,17 @@
       "imd"
     ],
     "body": [
-      "import name from '${0}'"
+      "import { name } from '${0}'"
     ],
     "description": "importDestructing"
+  },
+  "imp": {
+    "prefix": [
+      "imp"
+    ],
+    "body": [
+      "import name from '${0}'"
+    ],
+    "description": "import"
   }
 }
