@@ -3,6 +3,7 @@ return {
   opts = {
     alternates = {
       ["error"] = "warn",
+      ["false"] = "true",
     },
   },
 }
