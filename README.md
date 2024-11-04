@@ -1,13 +1,19 @@
-# tips
+# 简介
 
-## telescope.nvim
+基于 [AstroNvim](https://docs.astronvim.com/) 的 **neovim** 配置
 
-依赖了一个叫 [ripgrep](https://github.com/BurntSushi/ripgrep) 的工具，需要手动安装
+# 使用方法
+
+将代码 clone 到指定目录
+
+**windows:** `C:\Users\you_username\AppData\Local\nvim`
+**Linux:** `~/.config/nvim`
+
+因为 **telescope.nvim** 依赖了一个叫 [ripgrep](https://github.com/BurntSushi/ripgrep) 的工具，需要手动安装
 
 **windows:** `winget install BurntSushi.ripgrep.MSVC`
 
 **linux:** `sudo pacman -S ripgrep` or `sudo apt-get install ripgrep`
-
 
 # 窗口操作
 
@@ -26,7 +32,6 @@
 | 水平分割           | \          |
 | 垂直分割           | \|         |
 | 展开/收起Neotree   | leader+e   |
-|                    |            |
 
 # 缓冲区操作
 
@@ -49,31 +54,30 @@
 
 # 搜索操作
 
-| action | mappings |
-| ------ | -------- |
-|        |          |
-|        |          |
-|        |          |
-
-
+| action                       | mappings  |
+| ---------------------------- | --------- |
+| 在工作区中查找文件           | leader+ff |
+| 在工作区中查找全部的文件     | leader+fF |
+| 在工作区文件中查找 words     | leader+fw |
+| 在工作区全部文件中查找 words | leader+fW |
+| 在当前文件中查找 words       | leader+f/ |
 
 # LSP操作
 
-| action   | mappings      |
-| -------- | ------------- |
-| 悬停文档 | K             |
-| 线路诊断 | gl            |
-| 修复诊断 | leader+la     |
-| 改名     | leader+lr     |
-| 类型定义 | gy            |
-| 定义     | gd            |
-| 参考     | gr            |
-| 行注释   | 选中当前行+gc |
-| 块注释   | 选中行+gb     |
+| action     | mappings      |
+| ---------- | ------------- |
+| 悬停文档   | K             |
+| 线路诊断   | gl            |
+| 修复诊断   | leader+la     |
+| 改名       | leader+lr     |
+| 类型定义   | gy            |
+| 定义       | gd            |
+| 参考       | gr            |
+| 行注释     | 选中当前行+gc |
+| 块注释     | 选中行+gb     |
+| 执行script | leader+ar     |
 
-
-
-#  会话管理操作
+# 会话管理操作
 
 | action           | mappings  |
 | ---------------- | --------- |
@@ -101,4 +105,3 @@
 | 开放式浮动终端 | leader+tf |
 | 开放式卧式终端 | leader+th |
 | 开放式垂直终端 | leader+tv |
-
