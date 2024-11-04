@@ -7,6 +7,7 @@
 将代码 clone 到指定目录
 
 **windows:** `C:\Users\you_username\AppData\Local\nvim`
+
 **Linux:** `~/.config/nvim`
 
 因为 **telescope.nvim** 依赖了一个叫 [ripgrep](https://github.com/BurntSushi/ripgrep) 的工具，需要手动安装
