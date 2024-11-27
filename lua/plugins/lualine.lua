@@ -1,3 +1,5 @@
+-- if true then return {} end
+
 local colors = {
   blue = "#80a0ff",
   cyan = "#79dac8",
@@ -44,7 +46,7 @@ return {
       ignore_focus = {},
       always_divide_middle = true,
       always_show_tabline = true,
-      globalstatus = false,
+      globalstatus = true,
       refresh = {
         statusline = 100,
         tabline = 100,
@@ -73,6 +75,8 @@ return {
       lualine_z = {
         {
           "datetime",
+          icon = "",
+          color = { fg = "#ffffff" },
           style = "%H:%M",
         },
       },
