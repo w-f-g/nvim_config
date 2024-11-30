@@ -59,7 +59,7 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
-        ["<Leader>ao"] = {
+        ["go"] = {
           function()
             local command = "!start %"
             local os_name = vim.loop.os_uname().sysname
