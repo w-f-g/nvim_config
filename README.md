@@ -16,6 +16,10 @@
 
 **linux:** `sudo pacman -S ripgrep` or `sudo apt-get install ripgrep`
 
+# tips
+
+目前在编写rust的时候好像存在路径问题，需要手动将 `rust_analyzer` 添加进 `rustup`，请运行 `rustup component add rust-analyzer`
+
 # 窗口操作
 
 | action             | mappings   |
