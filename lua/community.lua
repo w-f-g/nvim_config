@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.icon.mini-icons" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.code-runner.overseer-nvim" },
   { import = "astrocommunity.indent.indent-rainbowline" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
