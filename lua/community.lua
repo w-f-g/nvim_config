@@ -12,6 +12,7 @@ return {
   -- { import = 'astrocommunity.pack.' },
 
   { import = "astrocommunity.icon.mini-icons" },
+  { import = "astrocommunity.utility.lua-json5" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
