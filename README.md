@@ -10,6 +10,10 @@
 
 **Linux:** `~/.config/nvim`
 
+**安装 gcc**
+windows: [w64devkit](https://github.com/skeeto/w64devkit)
+linux: `sudo pacman -S base-devel`
+
 因为 **telescope.nvim** 依赖了一个叫 [ripgrep](https://github.com/BurntSushi/ripgrep) 的工具，需要手动安装
 
 **windows:** `winget install BurntSushi.ripgrep.MSVC`
