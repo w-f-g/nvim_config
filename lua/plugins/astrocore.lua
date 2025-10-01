@@ -59,7 +59,7 @@ return {
           end,
           desc = "Close buffer from tabline",
         },
-        ["go"] = {
+        --[[ ["go"] = {
           function()
             local command = "!start %"
             local os_name = vim.loop.os_uname().sysname
@@ -71,7 +71,7 @@ return {
             vim.api.nvim_command(command)
           end,
           desc = "Open In Default",
-        },
+        }, ]]
         ["<Leader>ar"] = {
           function() vim.cmd "OverseerRun" end,
           desc = "Overseer Run",
